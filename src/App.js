@@ -8,7 +8,7 @@ import Protected from './component/Protected';
 function App() {
   return (
    <Routes>
-      <Route path='/' element={<Protected isSignedIn={true}><Dashboard /></Protected>} />
+      <Route path='/' element={<Protected isSignedIn={false}><Dashboard /></Protected>} />
       <Route path='/login' Component={Login}/>
       <Route  path='/signup' Component={Signup}/>
    </Routes>
