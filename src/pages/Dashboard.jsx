@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+        <h1>Member data will display here</h1>
+    </div>
   )
 }
